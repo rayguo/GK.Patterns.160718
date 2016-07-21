@@ -1,0 +1,39 @@
+Use Cases and Patterns:
+
+- Use one object which can be expensive to create.
+  > For example, logging component used by entire application.
+
+- Produce output where some content is constant and other content varies.
+  > For example, different kinds of reports with parts that vary.
+  
+- Remove logic from a method so that it can be suuplied by the caller.
+  > For example, filter a list with criteria specified by the client.
+  
+- The way objects are created needs to vary.
+  > For example, initialized with data from different sources.
+  
+- Objects can be created with multiple options.
+  > For example, ordering a laptop with options for CPU, RAM, storage, etc.
+  
+- Creation logic varies so much that many factories would be required.
+  > For example, expensive or complex initialization logic.
+  
+- Frequently polling an object to determine when state has changed.
+  > For example, need to know when large file has been processed.
+  
+- Need to traverse a hierarchical data structure.
+  > For example, JSON or XML document.
+  
+- Need to modify elements of a hierarchical data structure.
+  > Update information on some nodes but not others.
+  
+- Need to add behaviors to an object in different combinations.
+  > For example, serializing objects in one or more formats (json, xml, csv, etc).
+  
+- Allow object to execute actions without knowing what parameters are required.
+  > For example, records actions that can be executed in a different context.
+  
+- Control access to an object.
+  > For example, used cached objects instead of real ones, 
+    or control access based on client permissions.
+    
