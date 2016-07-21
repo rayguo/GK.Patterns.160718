@@ -12,6 +12,7 @@ namespace StatePatternClient
             order.AddBook("The Two Towers");
             order.AddBook("Silmarillion");
             order.AddBook("Return of the King");
+            order.GiftWrapOrder(); // Optional
 
             order.SubmitOrder();
 

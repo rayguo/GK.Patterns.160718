@@ -18,11 +18,5 @@ namespace StatePattern
             Order.InternalSubmitOrder();
             Order.OrderState = new SetDeliveryDetailsOrderState(Order);
         }
-
-        public override void GiftWrap()
-        {
-            // Gift wrap
-            Order.InternalGiftWrap();
-        }
     }
 }
