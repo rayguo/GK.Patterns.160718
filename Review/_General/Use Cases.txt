@@ -2,38 +2,50 @@ Use Cases and Patterns:
 
 - Use one object which can be expensive to create.
   > For example, logging component used by entire application.
+  > SINGLETON
 
 - Produce output where some content is constant and other content varies.
   > For example, different kinds of reports with parts that vary.
+  > TEMPLATE
   
-- Remove logic from a method so that it can be suuplied by the caller.
+- Remove logic from a method so that it can be suplied by the caller.
   > For example, filter a list with criteria specified by the client.
+  > STRATEGY
   
 - The way objects are created needs to vary.
   > For example, initialized with data from different sources.
+  > FACTORY
   
 - Objects can be created with multiple options.
   > For example, ordering a laptop with options for CPU, RAM, storage, etc.
+  > BUILDER
   
 - Creation logic varies so much that many factories would be required.
   > For example, expensive or complex initialization logic.
+  > PROTOTYPE
   
 - Frequently polling an object to determine when state has changed.
   > For example, need to know when large file has been processed.
+  > OBSERVER
   
 - Need to traverse a hierarchical data structure.
   > For example, JSON or XML document.
+  > COMPOSITE
   
 - Need to modify elements of a hierarchical data structure.
   > Update information on some nodes but not others.
+  > VISITOR
   
 - Need to add behaviors to an object in different combinations.
   > For example, serializing objects in one or more formats (json, xml, csv, etc).
+  > DECORATOR
   
 - Allow object to execute actions without knowing what parameters are required.
   > For example, records actions that can be executed in a different context.
+  > COMMAND
   
 - Control access to an object.
   > For example, used cached objects instead of real ones, 
     or control access based on client permissions.
+  > PROXY
     
