@@ -49,3 +49,28 @@ Use Cases and Patterns:
     or control access based on client permissions.
   > PROXY
     
+- Control steps in a workflow process.
+  > For example, an online bookstore with steps for ordering books.
+  > STATE
+  
+- Separate visual from business logic so that each may be tested independently,
+  and graphic designers may work independently from developers.
+  > For example, web application, web service, desktop or mobile application.
+  > MODEL-VIEW-CONTROLLER
+  > MODEL-VIEW-VIEWMODEL
+  
+- Isolate an application from the data access layer, so that you can replace
+  one data access API with another.
+  > For example, web application or web service which communicates with a database
+    using an ORM such as Entity Framework or NHibernate.
+  > REPOSITORY
+  
+- Perform transactions which involve multiple repositories.
+  > For example, update a Customer and one or more orders at the same time.
+  > UNIT OF WORK
+  
+- Satisfy dependencies used by parts of your application.
+  > For example, an application which depends on a web service for state.
+  > DEPENDENCY INJECTION (aka INVERSION OF CONTROL)
+  
+  
