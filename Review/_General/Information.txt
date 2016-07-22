@@ -1,0 +1,31 @@
+Course: GK 2340 Design Patterns in C#
+
+Instructor: Tony Sneed
+Email: tony.sneed@icloud.com
+Twitter: @tonysneed
+Blog: http://blog.tonysneed.com
+
+Tony's Open Source Projects:
+Simple MVVM Toolkit:
+- https://simplemvvmtoolkit.codeplex.com
+- https://github.com/tonysneed/SimpleMvvmToolkit
+Trackable Entities:
+- http://trackableentities.github.io
+
+GitHub: http://github.com/tonysneed
+- Prepared Samples: GK.Patterns.Samples
+- Live demos, reviews: GK.Patterns.160718
+
+Gists: http://gist.github.com/tonysneed
+- Includes LocalDb connection string
+
+Simple Injector with MVC Integration:
+- https://simpleinjector.org
+- http://simpleinjector.readthedocs.io/en/latest/mvcintegration.html
+
+Books:
+Design Patterns (Gang of Four)
+Head First Design Patterns
+Refactoring to Patterns by Martin Fowler
+Dependency Injection in .NET by Mark Seeman
+
